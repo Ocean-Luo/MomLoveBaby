@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "错误";
+}
+
+<h1 class="text-danger">错误</h1>
+<h2 class="text-danger">处理您的请求时发生错误。</h2>
+
+@if (Model?.ShowRequestId ?? false)
+{
+    <p>
+        <strong>请求ID:</strong> <code>@Model.RequestId</code>
+    </p>
+}

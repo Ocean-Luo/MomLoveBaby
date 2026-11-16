@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MomLoveBaby</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        .dropdown-item:hover {
+            background-color: #0d6efd;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .nav-link.dropdown-toggle:hover {
+            color: rgba(255,255,255,0.85);
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-lg mb-4" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MomLoveBaby</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">首页</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="pregnancyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                孕期指南
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="pregnancyDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Pregnancy" asp-action="PrePregnancy">备孕知识</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Pregnancy" asp-action="Pregnancy">怀孕知识</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Pregnancy" asp-action="PrenatalCheck">产检</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Pregnancy" asp-action="MaternityLeave">职工产假</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Pregnancy" asp-action="Childbirth">分娩</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Pregnancy" asp-action="Postpartum">产后恢复</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="newbornDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                新生儿照护
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="newbornDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Newborn" asp-action="Feeding">喂养指南</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Newborn" asp-action="Care">护理知识</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Newborn" asp-action="Health">健康监测</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Newborn" asp-action="Jaundice">黄疸问题</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Newborn" asp-action="Emergency">紧急情况处理</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Newborn" asp-action="FeedingMethod">母乳/奶粉</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Newborn" asp-action="CareNotes">照护注意</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="About" asp-action="Index">关于我们</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-4">
+        <nav aria-label="breadcrumb" class="container mt-3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">首页</a></li>
+                <li class="breadcrumb-item active" aria-current="page">@ViewData["Title"]</li>
+            </ol>
+        </nav>
+        <main role="main" class="pb-3 bg-white rounded shadow p-4">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted bg-white">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    &copy; 2025 - 洋洋母婴知识分享
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

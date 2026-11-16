@@ -1,0 +1,108 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MomLoveBaby
+build_property.RootNamespace = MomLoveBaby
+build_property.ProjectDir = D:\MomLoveBaby\MomLoveBaby\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\MomLoveBaby\MomLoveBaby
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Newborn/CareTips.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3Ym9yblxDYXJlVGlwcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Newborn/Emergency.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3Ym9yblxFbWVyZ2VuY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Newborn/Feeding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3Ym9yblxGZWVkaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Newborn/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3Ym9yblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Newborn/Jaundice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3Ym9yblxKYXVuZGljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Pregnancy/Childbirth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ25hbmN5XENoaWxkYmlydGguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Pregnancy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ25hbmN5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Pregnancy/MaternityLeave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ25hbmN5XE1hdGVybml0eUxlYXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Pregnancy/Postpartum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ25hbmN5XFBvc3RwYXJ0dW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Pregnancy/Pregnancy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ25hbmN5XFByZWduYW5jeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Pregnancy/PrenatalCheck.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ25hbmN5XFByZW5hdGFsQ2hlY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Pregnancy/PrePregnancy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ25hbmN5XFByZVByZWduYW5jeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MomLoveBaby/MomLoveBaby/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rat33v3bov
